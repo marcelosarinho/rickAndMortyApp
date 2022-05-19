@@ -1,0 +1,22 @@
+.nav-div {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  background-color: red;
+}
+
+.nav-item {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-item :hover {
+  color: white
+}
+
+.nav-logo {
+  width: 150px;
+  padding-left: 20px;
+  margin-right: 200px;
+}
