@@ -1,6 +1,8 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Character from "./Character";
 import Pagination from "./Pagination";
+import Loading from "../components/Loading";
+import "../styles/characters.css";
 
 const Characters = (props) => {
 
@@ -22,17 +24,19 @@ const Characters = (props) => {
       <div className="characters-title">
         <h1>Personagens</h1>
       </div>
-      {loading ? (<div>Carregando personagens...</div>
+      {loading ? (<Loading />
       ) : (
-        <div className="characters-grid">
-          {characters.map((character, index) => {
-            return (
-              <Character key={index} character={character} />
-            )
-          })}
-        </div>
+        <Fragment>
+          <div className="characters-grid">
+            {characters.map((character, index) => {
+              return (
+                <Character key={index} character={character} />
+              )
+            })}
+          </div>
+          <Pagination page={page} totalPages={totalPages} onClickNext={onClickNext} onClickPrevious={onClickPrevious} />
+        </Fragment>
       )}
-      <div><Pagination page={page} totalPages={totalPages} onClickNext={onClickNext} onClickPrevious={onClickPrevious} /></div>
     </div>
   )
 }

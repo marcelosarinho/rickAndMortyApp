@@ -1,0 +1,20 @@
+.footer-content {
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer-content p {
+  padding-top: 39px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-content a:hover {
+  color: #87d1db;
+}

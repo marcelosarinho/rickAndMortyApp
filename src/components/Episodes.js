@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 import Episode from "../components/Episode";
 import Pagination from "./Pagination";
+import Loading from "../components/Loading";
+import "../styles/alert.css";
+import "../styles/episodes.css";
 
 const Episodes = (props) => {
 
@@ -22,17 +25,19 @@ const Episodes = (props) => {
       <div className="episodes-title">
         <h1>Episódios</h1>
       </div>
-      {loading ? (<div>Carregando os episódios...</div>
+      {loading ? (<Loading />
       ) : (
-        <div className="episodes-grid">
-          {episodes.map((episode, index) => {
-            return (
-              <Episode key={index} episode={episode} />
-            )
-          })}
-        </div>
+        <Fragment>
+          <div className="episodes-grid">
+            {episodes.map((episode, index) => {
+              return (
+                <Episode key={index} episode={episode} />
+              )
+            })}
+          </div>
+          <Pagination page={page} totalPages={totalPages} onClickNext={onClickNext} onClickPrevious={onClickPrevious} />
+        </Fragment>
       )}
-      <div><Pagination page={page} totalPages={totalPages} onClickNext={onClickNext} onClickPrevious={onClickPrevious} /></div>
     </Fragment>
   )
 }

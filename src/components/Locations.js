@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 import Location from "../components/Location";
 import Pagination from "./Pagination";
+import Loading from "../components/Loading";
+import "../styles/alert.css";
+import "../styles/locations.css";
 
 const Locations = (props) => {
 
@@ -22,17 +25,19 @@ const Locations = (props) => {
       <div className="locations-title">
         <h1>Localizações</h1>
       </div>
-      {loading ? (<div>Carregando localizações...</div>
+      {loading ? (<Loading />
       ) : (
-        <div className="locations-grid">
-          {locations.map((location, index) => {
-            return (
-              <Location key={index} location={location} />
-            )
-          })}
-        </div>
+        <Fragment>
+          <div className="locations-grid">
+            {locations.map((location, index) => {
+              return (
+                <Location key={index} location={location} />
+              )
+            })}
+          </div>
+          <Pagination page={page} totalPages={totalPages} onClickNext={onClickNext} onClickPrevious={onClickPrevious} />
+        </Fragment>
       )}
-      <div><Pagination page={page} totalPages={totalPages} onClickNext={onClickNext} onClickPrevious={onClickPrevious} /></div>
     </Fragment>
   )
 }

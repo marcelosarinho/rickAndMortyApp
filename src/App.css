@@ -2,41 +2,6 @@
   box-sizing: border-box;
 }
 
-nav {
-  background-color: #87d1db;
-  height: 65px;
-}
-
-.nav-div {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.nav-element {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.characters-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.characters-grid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
-}
-
-.pagination-div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .App {
   text-align: center;
 }

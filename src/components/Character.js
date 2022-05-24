@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/character.css";
 
 const Character = (props) => {
 
@@ -17,7 +18,11 @@ const Character = (props) => {
         ) : (
           <p>Local de origem: {character.origin.name}</p>
         )}
-        <p>Localização: {character.location.name}</p>
+        {character.location.name === "unknown" ? (
+          <p>Localização: Desconhecida</p>
+        ) : (
+          <p>Localização: {character.location.name}</p>
+        )}
       </div>
     </div>
   )

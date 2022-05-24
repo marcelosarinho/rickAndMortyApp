@@ -1,0 +1,10 @@
+.episodes-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.episodes-title {
+  padding-left: 20px;
+}

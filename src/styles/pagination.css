@@ -1,0 +1,27 @@
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.pagination-div button {
+  width: 120px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid black;
+  font-size: 16px;
+  background-color: #87d1db;
+  font-weight: 600;
+}
+
+.pagination-div button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination-div div {
+  margin: auto 15px;
+  font-size: 18px;
+}

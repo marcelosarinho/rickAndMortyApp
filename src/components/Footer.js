@@ -1,9 +1,12 @@
 import React from "react";
+import "../styles/footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      Projeto criado por Marcelo Sarinho, utilizando a API <a href="https://rickandmortyapi.com/">The Rick and Morty API</a>
+    <footer className="footer-content">
+      <p>
+        Projeto criado por <strong>Marcelo Sarinho</strong>, utilizando a API <a href="https://rickandmortyapi.com/">The Rick and Morty API</a>
+      </p>
     </footer>
   )
 }

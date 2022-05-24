@@ -1,12 +1,20 @@
 .nav-div {
   display: flex;
   align-items: center;
-  height: 70px;
-  background-color: red;
+  height: 60px;
+  background-color: #87d1db;
 }
 
 .nav-item {
-  font-size: 20px;
+  font-size: 13px;
+
+}
+
+.nav-icon {
+  width: 225px;
+}
+
+.link-item {
   text-decoration: none;
   color: black;
 }
@@ -18,5 +26,11 @@
 .nav-logo {
   width: 150px;
   padding-left: 20px;
-  margin-right: 200px;
+}
+
+.separator {
+  text-align: center;
+  width: 10px;
+  height: 20px;
+  margin: auto 20px;
 }

@@ -1,0 +1,10 @@
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.characters-title {
+  padding-left: 20px;
+}
