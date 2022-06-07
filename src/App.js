@@ -10,8 +10,4 @@ function App() {
   );
 }
 
-// <Characters characters={characters} loading={loading} page={page} totalPages={totalPages} setPage={setPage} />
-// <Navbar />
-// <HomeScreen />
-
 export default App;
