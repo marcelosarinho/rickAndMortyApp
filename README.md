@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<h1 align="center">Rick and Morty App</h1>
+<p align="center">Esse site apresenta informações sobre a série de animação adulta Rick and Morty.</p>
+</br>
+<p align="center">
+<a href="https://github.com/marcelosarinho/rickAndMortyApp/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/marcelosarinho/rickAndMortyApp?style=flat-square"></a>
+<a href="https://github.com/marcelosarinho/rickAndMortyApp/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/marcelosarinho/rickAndMortyApp?style=flat-square"></a>
+<a href="https://github.com/marcelosarinho/rickAndMortyApp/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/marcelosarinho/rickAndMortyApp?style=social"></a>
+</p>
+<p align="center">
+<a href="#sobre">Sobre</a> • 
+<a href="#pre-requisitos">Pré-Requisitos</a> • 
+<a href="#tecnologias">Tecnologias</a> • 
+<a href="#licenca">Licença</a> •
+<a href="#autor">Autor</a>
+</p>
+<h4 align="center"> ✔️ Projeto finalizado! ✔️ </h4>
+<h1></h1>
+<h2>🌐 Demonstração</h2>
+<div>
+  <h3 align="center">
+   <img src="./screenshots/home.png"/>
+  </h3>
+  <br/>
+  <h3 align="center">
+   <img src="./screenshots/personagens.png"/>
+  </h3>
+  <br/>
+  <h3 align="center">
+   <img src="./screenshots/localizacoes.png"/>
+  </h3>
+  <br/>
+  <h3 align="center">
+   <img src="./screenshots/episodios.png"/>
+  </h3>
+</div>
+<h2 id="sobre">📖 Sobre</h2>
+<p>Esse repositório é um site fornece informações sobre a série Rick and Morty, como os personagens, localizações e episódios da série. O projeto foi criado com intuito de praticar HTML, CSS, JavaScript, React e React Router. Foi utilizada a <a href="https://rickandmortyapi.com/">The Rick and Morty API</a>.</p>
+<h2 id="pre-requisitos">📋 Pré-Requisitos</h2>
+<p>Para testar essa aplicação, é necessário <a href="https://git-scm.com/">Git</a> e <a href="https://www.npmjs.com/">npm</a> (ou <a href="https://yarnpkg.com/">Yarn</a>).</p>
+<p>Caso queira testar o projeto na sua máquina, siga esses passos:</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```bash
+# Clone o repositório
+$ git clone <https://github.com/marcelosarinho/rickAndMortyApp>
 
-## Available Scripts
+# Acesse a pasta do projeto clonado
+$ cd rickAndMortyApp
 
-In the project directory, you can run:
+# Instale as dependências necessárias para o projeto
+$ npm install
 
-### `npm start`
+# Execute o comando
+$ npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# O site aparecerá automaticamente, caso não apareça acesse <http://localhost:3000/>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
 
-### `npm test`
+<h2 id="tecnologias">💻 Tecnologias utilizadas</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+<br/>
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+<br/>
+<a href="https://www.javascript.com/">![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)</a>
+<br/>
+<a href="https://reactjs.org/">![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)</a>
+<br/>
+<a href="https://reactrouter.com/">![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)</a>
+<h2 id="licenca">📜 Licença</h2>
+Esse projeto utiliza a Licença MIT.
+<h2 id="autor">👨‍💻 Autor</h2>
+<br/>
+<div align="center">
+<a href="https://github.com/marcelosarinho">
+<img src="https://avatars.githubusercontent.com/u/105175233?s=400&u=319025640369177cd290b894f1ffd06363059b64&v=4" width="150px"/>
+</a>
+<h3>Marcelo Sarinho</h3>
+<h4>Contato</h4>
+<a href="https://github.com/marcelosarinho"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/marcelo-sarinho-a4706923a/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:marceloactsarinho@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+</div>
