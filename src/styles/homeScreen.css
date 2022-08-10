@@ -44,3 +44,49 @@
 .home-link-item :hover {
   color: #87d1db;
 }
+
+@media (max-width: 1863px) {
+  .home-content {
+    width: 450px;
+    height: 365px;
+  }
+
+  .home-content img {
+    width: 350px;
+  }
+
+  .home-content p {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1414px) {
+  .home-content {
+    width: 380px;
+    height: 300px;
+  }
+
+  .home-content img {
+    width: 300px;
+  }
+
+  .home-content p {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1197px) {
+  .home-content {
+    width: 320px;
+  }
+
+  .home-content img {
+    width: 250px;
+  }
+
+  .home-content p {
+    width: 250px;
+  }
+
+  /* A solução pode estar no height do home-info */
+}
