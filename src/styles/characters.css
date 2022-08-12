@@ -8,3 +8,15 @@
 .characters-title {
   padding-left: 20px;
 }
+
+@media (max-width: 1849px) {
+  .characters-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1479px) {
+  .characters-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

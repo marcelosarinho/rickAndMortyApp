@@ -6,8 +6,7 @@
 }
 
 .nav-item {
-  font-size: 13px;
-
+  font-size: 12px;
 }
 
 .nav-icon {
@@ -33,4 +32,88 @@
   width: 10px;
   height: 20px;
   margin: auto 20px;
+}
+
+@media (max-width: 866px) {
+  .nav-logo {
+    width: 120px;
+  }
+
+  .nav-item {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .nav-icon {
+    width: 170px;
+  }
+
+  .nav-logo {
+    width: 100px;
+  }
+
+  .nav-item {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 602px) {
+  .nav-logo {
+    width: 80px;
+  }
+
+  .nav-item {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 554px) {
+  .nav-logo {
+    padding-left: 10px;
+  }
+
+  .nav-item {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-logo {
+    width: 65px;
+  }
+
+  .nav-item {
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-item {
+    font-size: 7px;
+  }
+
+  .separator {
+    margin: auto 12px;
+  }
+}
+
+@media (max-width: 388px) {
+  .nav-item {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 355px) {
+  .nav-div {
+    height: 50px;
+  }
+
+  .nav-logo {
+    width: 62px;
+  }
+
+  .separator {
+    margin: auto 5px;
+  }
 }

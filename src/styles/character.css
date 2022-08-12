@@ -9,5 +9,6 @@
 }
 
 .character-info {
-  width: 350px;
+  width: 300px;
+  margin: 2px auto;
 }

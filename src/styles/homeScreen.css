@@ -87,6 +87,103 @@
   .home-content p {
     width: 250px;
   }
+}
 
-  /* A solução pode estar no height do home-info */
+@media (max-width: 995px) {
+  .home-title {
+    font-size: 12px;
+  }
+
+  .home-title h3 {
+    width: 800px;
+  }
+
+  .home-content {
+    width: 270px;
+  }
+
+  .home-content img {
+    width: 220px;
+  }
+
+  .home-content p {
+    width: 220px;
+  }
+}
+
+@media (max-width: 866px) {
+  .home-content {
+    width: 240px;
+  }
+
+  .home-content img {
+    width: 180px;
+  }
+
+  .home-content p {
+    width: 180px;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-title h3 {
+    width: 600px;
+  }
+}
+
+@media (max-width: 719px) {
+  .home-info {
+    flex-wrap: wrap;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 602px) {
+  .home-title {
+    font-size: 11px;
+  }
+
+  .home-title h3 {
+    width: 500px;
+  }
+
+  .home-content {
+    width: 210px;
+    height: 270px;
+  }
+
+  .home-content img {
+    width: 140px;
+  }
+
+  .home-content p {
+    width: 140px;
+    font-size: 13px;
+  }
+
+  .home-content h2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-title h3 {
+    width: 400px;
+  }
+}
+
+@media (max-width: 419px) {
+  .home-info {
+    height: 120vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-title {
+    font-size: 10px;
+  }
+
+  .home-title h3 {
+    width: 300px;
+  }
 }
