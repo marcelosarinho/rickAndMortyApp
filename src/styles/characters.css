@@ -20,3 +20,20 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+@media (max-width: 674px) {
+  .characters-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 534px) {
+  .characters-grid {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px;
+  }
+
+  .characters-title {
+    padding-left: 10px;
+  }
+}

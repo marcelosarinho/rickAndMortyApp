@@ -12,3 +12,92 @@
   width: 300px;
   margin: 2px auto;
 }
+
+@media (max-width: 1024px) {
+  .character-image-container img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 970px) {
+  .character-card {
+    width: 240px;
+    height: 390px;
+  }
+
+  .character-image-container img {
+    width: 200px;
+  }
+
+  .character-info {
+    width: 220px;
+  }
+
+  .character-info p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 794px) {
+  .character-card {
+    width: 200px;
+    height: 350px;
+  }
+
+  .character-image-container img {
+    width: 160px;
+  }
+
+  .character-info {
+    width: 180px;
+  }
+}
+
+@media (max-width: 674px) {
+  .character-card {
+    width: 240px;
+    height: 390px;
+  }
+
+  .character-info {
+    width: 220px;
+  }
+}
+
+@media (max-width: 534px) {
+  .character-card {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .character-image-container {
+    padding-top: 0;
+  }
+
+  .character-image-container img {
+    width: 150px;
+    padding-left: 7px;
+  }
+}
+
+@media (max-width: 413px) {
+  .character-card {
+    width: 300px;
+    height: 180px;
+  }
+
+  .character-image-container img {
+    width: 140px;
+  }
+
+  .character-info {
+    width: 150px;
+  }
+
+  .character-info p {
+    font-size: 12px;
+  }
+}
