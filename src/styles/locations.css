@@ -8,3 +8,33 @@
 .locations-title {
   padding-left: 20px;
 }
+
+@media (max-width: 998px) {
+  .locations-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 808px) {
+  .locations-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 584px) {
+  .locations-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  .locations-title {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 374px) {
+  .locations-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

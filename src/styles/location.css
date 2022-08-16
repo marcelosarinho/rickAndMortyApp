@@ -3,3 +3,13 @@
   border-radius: 8px;
   padding: 10px;
 }
+
+@media (max-width: 425px) {
+  .location-header h2 {
+    font-size: 20px;
+  }
+
+  .location-info p {
+    font-size: 14px;
+  }
+}

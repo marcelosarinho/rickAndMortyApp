@@ -18,3 +18,9 @@
 .footer-content a:hover {
   color: #87d1db;
 }
+
+@media (max-width: 481px) {
+  .footer-content p {
+    font-size: 14px;
+  }
+}
